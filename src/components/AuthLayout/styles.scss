@@ -1,0 +1,17 @@
+@import "../../colors.scss";
+
+.auth-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: $base-color;
+
+
+  .auth-form {
+    width: 400px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: white;
+  }
+}
